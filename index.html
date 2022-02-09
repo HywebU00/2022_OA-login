@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant" class="no-js">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>凌網科技 OA login</title>
+	<!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	<!-- hyUI css -->
+    <link rel="stylesheet" href="css/hyui.css">
+	<!-- favicon -->
+    <link href="images/favicon.png" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="login">
+			<h1 class="logo"><img src="images/logo.svg" alt=""></h1>
+			<section class="main">
+				<h2 class="title">OA System</h2>
+				<p class="alert"><span>帳號或密碼錯誤，請再試一次。</span></p>
+				<form action="">
+					<div class="flex-form">
+						<div class="form_grp">
+                            <label for="username" class="form_title user">帳號</label>
+                            <div class="form_content">
+                                <input type="text" id="username" placeholder="請輸入帳號" value="">
+                            </div>
+                        </div>
+						<div class="form_grp warn">
+                            <label for="password" class="form_title password">密碼</label>
+                            <div class="form_content">
+                                <div class="labelEffect password_toggle">
+                                    <input name="password" type="password" placeholder="請輸入密碼" value="1234" class="error">
+                                    <button type="button" class="btn btn-icon"><i class="i_hide"></i></button>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+					<!-- 按鈕 -->
+                    <div class="btn_grp">
+                        <button class="btn btn-submit">登入</button>
+                    </div>
+				</form>
+				<ul class="tip">
+					<li>帳號密碼與工時系統相同</li>
+					<li>操作上出現問題，<a href="#" target="_blank">請在此回報</a></li>
+					<li> Accout and Password as the same as Daily Management Systems.</li>
+					<li>If you have any problem, <a href="#" target="_blank">report a problem here</a>.</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<!-- JQ -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- 客製js -->
+    <script src="js/customize.js"></script>
+</body>
+</html>
