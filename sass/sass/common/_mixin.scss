@@ -1,4 +1,5 @@
 //  MIXIN
+@import "mixins/_clearfix";		//清除浮動
 @import "mixins/_extend";			// 繼承
 @import "mixins/_mediaquery";		// mediaquery
 @import "mixins/_gradient";			// 漸層

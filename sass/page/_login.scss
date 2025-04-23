@@ -112,7 +112,7 @@ body{
 
     // 按鈕
     .btn_grp{
-      padding: 1em 0 1em 1em;
+      padding: 1em 0 1em 60px;
       .btn{ margin: .25em 0;}
     }
     .btn-submit{
@@ -141,6 +141,42 @@ body{
           background: linear-gradient(180deg, rgba(146, 242, 255, 0) 8.85%, rgba(77, 157, 231, 0) 100%),
                       linear-gradient(0deg, darken($btn-bg, 10), darken($btn-bg, 10));
 
+          cursor: pointer;
+          color: #FFF;
+          outline:none;
+          box-shadow: 0 0px 0px 2px $aFocus !important;
+      }
+      &.active {
+          background: lighten($btn-bg, 5);
+          cursor: pointer;
+      }
+    }
+    .btn-outGoing{
+      // background: linear-gradient(180deg, rgba(146, 242, 255, 0.3) 8.85%, rgba(77, 157, 231, 0) 100%),
+      //             linear-gradient(0deg, #0E4782, #0E4782);
+      // background: linear-gradient(0deg, rgba(146, 242, 255, 0.3) 8.85%, rgba(77, 157, 231, 0) 100%),
+      //             #fff;
+      background-color: #CDDCDC;
+      background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+      background-blend-mode: screen, overlay;
+      color: #003366;
+      border: transparent;
+      width: calc(100% - .6em);
+      height: 44px;
+      margin-top: 12px !important;
+
+      transition: all .3s ease;
+
+      &:hover{
+          background: linear-gradient(180deg, rgba(146, 242, 255, 0) 8.85%, rgba(77, 157, 231, 0) 100%),
+                      linear-gradient(0deg, darken($btn-bg, 10), darken($btn-bg, 10));
+          cursor: pointer;
+          color: #ffF;
+          outline:none;
+      }
+      &:focus {
+          background: linear-gradient(180deg, rgba(146, 242, 255, 0) 8.85%, rgba(77, 157, 231, 0) 100%),
+                      linear-gradient(0deg, darken($btn-bg, 10), darken($btn-bg, 10));
           cursor: pointer;
           color: #FFF;
           outline:none;
