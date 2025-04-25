@@ -54,8 +54,12 @@ body{
     }
     .labelEffect {
       .btn-icon{
-        height: 44px;
+        height: 43px;
         width: 50px;
+        border: 2px solid transparent;
+        &:hover{
+          background: #ddd;
+        }
       }
     }
 
