@@ -4811,7 +4811,7 @@ body {
   cursor: pointer;
   color: #FFF;
   outline: none;
-  box-shadow: 0 0px 0px 2px #ff3e4d !important;
+  box-shadow: 0 0 0 2px transparent !important;
 }
 .login .main .btn-submit.active {
   background: #105499;
@@ -4839,7 +4839,7 @@ body {
   cursor: pointer;
   color: #FFF;
   outline: none;
-  box-shadow: 0 0px 0px 2px #ff3e4d !important;
+  box-shadow: 0 0 0 2px transparent !important;
 }
 .login .main .btn-outGoing.active {
   background: #105499;

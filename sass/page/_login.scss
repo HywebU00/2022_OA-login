@@ -144,7 +144,7 @@ body{
           cursor: pointer;
           color: #FFF;
           outline:none;
-          box-shadow: 0 0px 0px 2px $aFocus !important;
+          box-shadow: 0 0 0 2px transparent !important;
       }
       &.active {
           background: lighten($btn-bg, 5);
@@ -180,7 +180,7 @@ body{
           cursor: pointer;
           color: #FFF;
           outline:none;
-          box-shadow: 0 0px 0px 2px $aFocus !important;
+          box-shadow: 0 0 0 2px transparent !important;
       }
       &.active {
           background: lighten($btn-bg, 5);
